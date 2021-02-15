@@ -1,0 +1,40 @@
+:root {
+    font-size:16px;
+    font-family:Gotham;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('./fonts/Gotham/Metropolis-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Logofont';
+    src: url('./fonts/AmazoBit2/AmazOOSTROVv.2.ttf');
+}
+
+body {
+    color:black;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+
+body::webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background:#1e1e24
+}
+body::webkit-scrollbar-thumb {
+    background:#b6b6b6
+}
+
+main {
+    margin-left: 10rem;
+}

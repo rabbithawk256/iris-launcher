@@ -1,0 +1,24 @@
+{
+  "name": "iris-launcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabbithawk256/iris-launcher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rabbithawk256/iris-launcher/issues"
+  },
+  "homepage": "https://github.com/rabbithawk256/iris-launcher#readme",
+  "devDependencies": {
+    "electron": "^11.2.3"
+  }
+}
